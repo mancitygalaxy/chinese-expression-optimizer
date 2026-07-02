@@ -14,43 +14,44 @@
 ## 仓库内容
 
 ```text
-Codex技能/chinese-expression-optimizer/
+skill/chinese-expression-optimizer/
   SKILL.md
   agents/openai.yaml
   references/rewrite-patterns.md
   references/portable-rule.md
 
-可复制规则/
+rules/
   中文表达优化规则.md
 
-示例/
+examples/
   业务文档改写示例.md
   技术文档改写示例.md
   Markdown审校示例.md
 ```
 
-- `Codex技能/chinese-expression-optimizer/`：可放入 Codex 技能目录的完整技能包。
-- `可复制规则/中文表达优化规则.md`：可直接复制到其他 AI 助手里的轻量规则。
-- `示例/`：常见中文表达问题的改写示例。
+- `skill/chinese-expression-optimizer/`：可放入 Codex 技能目录的完整技能包。
+- `rules/中文表达优化规则.md`：可直接复制到其他 AI 助手里的轻量规则。
+- `examples/`：常见中文表达问题的改写示例。
 
 ## 英文保留范围
 
-项目中尽量使用中文。以下内容保留英文，是因为它们属于平台、工具或代码约定：
+项目中优先使用中文，但不机械翻译。以下内容保留英文，是因为它们属于平台、工具、开源仓库习惯或代码约定：
 
 - GitHub 固定文件名：`README.md`、`LICENSE`、`.gitignore`。
+- 常见仓库结构名：`skill/`、`rules/`、`examples/`。
 - Codex 技能固定文件：`SKILL.md`、`agents/openai.yaml`、`references/`。
 - 技能标识：`chinese-expression-optimizer`，用于安装和触发技能。
 - 命令、路径、字段名、代码符号和产品名，例如 `Codex`、`Markdown`、`field_name`。
 
 ## 快速使用
 
-如果你只是想把规则贴到自己的 AI 助手里，复制 `可复制规则/中文表达优化规则.md` 里的规则即可。
+如果你只是想把规则贴到自己的 AI 助手里，复制 `rules/中文表达优化规则.md` 里的规则即可。
 
-如果你使用 Codex 并想作为技能使用，可以把 `Codex技能/chinese-expression-optimizer` 复制到本机技能目录：
+如果你使用 Codex 并想作为技能使用，可以把 `skill/chinese-expression-optimizer` 复制到本机技能目录：
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R Codex技能/chinese-expression-optimizer "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skill/chinese-expression-optimizer "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 之后可以这样请求：
