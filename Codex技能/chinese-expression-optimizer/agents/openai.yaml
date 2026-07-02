@@ -1,4 +1,4 @@
 interface:
   display_name: "中文表达优化"
   short_description: "优化中文文档表达，减少翻译腔、空泛黑话和术语堆叠问题"
-  default_prompt: "Use $chinese-expression-optimizer 优化这份中文 Markdown，保留事实、术语和业务口径。"
+  default_prompt: "使用 $chinese-expression-optimizer 优化这份中文 Markdown，保留事实、术语和业务口径。"

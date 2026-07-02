@@ -1,6 +1,6 @@
 ---
 name: chinese-expression-optimizer
-description: "Polish, rewrite, and review Chinese-language prose and Markdown so it reads naturally, clearly, and appropriately for its audience while preserving facts. Use when Codex is asked to 优化中文表达、改写中文文案、审校 Markdown、减少翻译腔、去除 AI 味 / 客服腔 / 营销腔、规范中英文术语、改进 PRD、报告、规则、交接卡、用户话术或其他中文工作文档。"
+description: "优化、改写和审校中文文本与 Markdown，让表达更自然、更清楚、更符合目标读者，同时保留事实、数字、术语和业务口径。适用于优化中文表达、改写中文文案、审校 Markdown、减少翻译腔、去除 AI 味 / 客服腔 / 营销腔、规范中英文术语、改进 PRD、报告、规则、交接卡、用户话术和其他中文工作文档。"
 ---
 
 # 中文表达优化
